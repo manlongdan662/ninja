@@ -17,7 +17,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         with:
          # 替换成需要同步的用户名，仓库名，分支名。
-          source_repo: "https://github.com/yqchilde/MoonBegonia/ninja.git"
+          source_repo: "https://github.com/MoonBegonia/ninja.git"
           source_branch: "main"
           destination_branch: "master"
           sync_tags: "true"
